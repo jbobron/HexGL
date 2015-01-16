@@ -62,7 +62,7 @@ html, body {
   bottom: 0;
   left: 0;
   z-index: 0;
-  background: url('bg.jpg') no-repeat center center fixed;
+  background: url('fred.jpg') no-repeat center center fixed;
   overflow: hidden;
   text-align: center;
   -moz-background-size: cover;
