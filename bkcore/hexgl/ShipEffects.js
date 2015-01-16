@@ -41,10 +41,10 @@ bkcore.hexgl.ShipEffects = function(opts)
 			{
 				randomness: new THREE.Vector3(0.4,0.4,0.4),
 				tint: 0xffffff,
-				color: 0xffc000,
+				color: 0xfd00ff,
 				color2: 0xffffff,
 				texture: opts.textureSpark,
-				size: 2,
+				size: 200,
 				life: 60,
 				max: 200
 			}),
@@ -53,7 +53,7 @@ bkcore.hexgl.ShipEffects = function(opts)
 			{
 				opacity: 0.8,
 				tint: 0xffffff,
-				color: 0x666666,
+				color: 0x663300,
 				color2: 0xa4f1ff,
 				texture: opts.textureCloud,
 				size: 6,
@@ -70,10 +70,10 @@ bkcore.hexgl.ShipEffects = function(opts)
 			{
 				randomness: new THREE.Vector3(0.4,0.4,0.4),
 				tint: 0xffffff,
-				color: 0xffc000,
+				color: 0xfd00ff,
 				color2: 0xffffff,
 				texture: opts.textureSpark,
-				size: 2,
+				size: 200,
 				life: 60,
 				max: 200
 			}),
@@ -82,7 +82,7 @@ bkcore.hexgl.ShipEffects = function(opts)
 			{
 				opacity: 0.8,
 				tint: 0xffffff,
-				color: 0x666666,
+				color: 0x663300,
 				color2: 0xa4f1ff,
 				texture: opts.textureCloud,
 				size: 6,
