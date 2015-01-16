@@ -682,8 +682,8 @@ bkcore.hexgl.ShipControls.prototype.collisionCheck = function(dt)
 			}
 		}
 
-		this.speed *= this.collisionSpeedDecrease;
-		this.speed *= (1-this.collisionSpeedDecreaseCoef*(1-collision.r/255));
+		this.speed /= this.collisionSpeedDecrease;
+		this.speed /= (1-this.collisionSpeedDecreaseCoef*(1-collision.r/255));
 		this.boost = 0;
 
 		return true;
